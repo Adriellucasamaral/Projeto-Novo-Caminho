@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projeto Novo Caminho: educação, materiais escolares e participação voluntária.">
+  <title>Projeto Novo Caminho</title>
+  <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body>
+  <div class="pagina">
+    <aside class="menu-lateral" id="menuLateral" aria-label="Navegação principal">
+      <nav>
+        <a href="#inicio">Início</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#cadastro">Participar</a>
+        
+      </nav>
+    </aside>
+
+    <div class="conteudo">
+      <header class="topo">
+        <button class="botao-menu" id="botaoMenu" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menuLateral">☰</button>
+        <img class="logo" src="/src/img/logo-projeto.png" alt="Logo do Projeto Novo Caminho">
+        <h1>Projeto Novo Caminho</h1>
+        <p>Educação que abre caminhos</p>
+      </header>
+
+      <main id="conteudo" tabindex="-1"></main>
+
+      <footer>
+        <p>Projeto Novo Caminho • Educação que transforma</p>
+      </footer>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="/src/js/main.js"></script>
+</body>
+</html>
