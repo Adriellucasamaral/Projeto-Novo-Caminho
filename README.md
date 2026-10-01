@@ -42,3 +42,9 @@ Foram usados elementos semânticos como `header`, `nav`, `main` e `footer`, alé
 
 ## Build de produção
 A ferramenta usada para a build é o Vite. O projeto mantém os módulos JavaScript separados durante o desenvolvimento e o Vite prepara os arquivos para produção com minificação.
+
+## Fluxo de versionamento
+
+O projeto foi organizado utilizando branches para separar a versão principal do desenvolvimento. A branch main representa a versão principal do projeto, enquanto a develop é utilizada para o desenvolvimento das alterações. Para novas funcionalidades, pode ser utilizada uma branch com o padrão feature/.
+
+Esse fluxo ajuda a manter as alterações organizadas antes de serem integradas ao desenvolvimento.
